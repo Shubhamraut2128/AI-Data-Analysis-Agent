@@ -42,8 +42,9 @@ The **AI Data Analysis Agent** acts like a **junior data analyst** that:
 ---
 
 ## 📂 Project Folder Structure
-AI_DATA_ANALYSIS_AGENT/
-│
+AI_DATA_ANALYSIS_AGENT
+
+
 ├── agents/
 │   ├── __init__.py
 │   ├── analysis_agent.py
