@@ -44,55 +44,6 @@ The **AI Data Analysis Agent** acts like a **junior data analyst** that:
 ## 📂 Project Folder Structure
 AI_DATA_ANALYSIS_AGENT
 
-
-├── agents/
-│   ├── __init__.py
-│   ├── analysis_agent.py
-│   ├── hf_llm.py
-│   ├── insight_agent.py
-│   ├── intent_agent.py
-│   └── planner_agent.py
-│
-├── tools/
-│   ├── __init__.py
-│   ├── data_cleaner.py
-│   ├── data_loader.py
-│   ├── eda_tool.py
-│   └── plot_tool.py
-│
-├── data/
-│   └── uploads/
-│       └── loan.csv
-│
-├── app.py
-├── main.py
-├── requirements.txt
-└── README.md
-
-
----
-
-## ⚙️ Features
-
-- 📤 Upload CSV file  
-- 📊 Automatic EDA (rows, columns, missing values)  
-- 🧠 AI-generated insights (LLM-powered)  
-- 📄 Clean text output (**not raw JSON**)  
-- 🏗 Modular agent-based architecture  
-
----
-
-## 🚀 How It Works
-
-1. User uploads a CSV file  
-2. Dataset is loaded using Pandas  
-3. `eda_tool` generates dataset summary  
-4. `insight_agent` calls LLM to generate insights  
-5. FastAPI returns a **clean, readable analysis**
-
----
-### Folder Structure
-
 AI_DATA_ANALYSIS_AGENT/
 │
 ├── agents/
@@ -118,7 +69,29 @@ AI_DATA_ANALYSIS_AGENT/
 ├── main.py
 ├── requirements.txt
 └── README.md
+__
 
+---
+
+## ⚙️ Features
+
+- 📤 Upload CSV file  
+- 📊 Automatic EDA (rows, columns, missing values)  
+- 🧠 AI-generated insights (LLM-powered)  
+- 📄 Clean text output (**not raw JSON**)  
+- 🏗 Modular agent-based architecture  
+
+---
+
+## 🚀 How It Works
+
+1. User uploads a CSV file  
+2. Dataset is loaded using Pandas  
+3. `eda_tool` generates dataset summary  
+4. `insight_agent` calls LLM to generate insights  
+5. FastAPI returns a **clean, readable analysis**
+
+---
 
 ## 🧪 Sample Dataset (Heart Disease)
 
