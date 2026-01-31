@@ -1,0 +1,12 @@
+langchain
+langchain-community
+transformers
+torch
+accelerate
+pandas
+numpy
+matplotlib
+fastapi
+uvicorn
+streamlit
+python-multipart
