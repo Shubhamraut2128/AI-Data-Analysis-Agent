@@ -38,27 +38,26 @@ The **AI Data Analysis Agent** acts like a **junior data analyst** that:
 ---
 
 ## 📂 Project Folder Structure
-
 AI_DATA_ANALYSIS_AGENT/
 │
 ├── agents/
-│ ├── init.py
-│ ├── analysis_agent.py
-│ ├── hf_llm.py
-│ ├── insight_agent.py
-│ ├── intent_agent.py
-│ └── planner_agent.py
+│   ├── __init__.py
+│   ├── analysis_agent.py
+│   ├── hf_llm.py
+│   ├── insight_agent.py
+│   ├── intent_agent.py
+│   └── planner_agent.py
 │
 ├── tools/
-│ ├── init.py
-│ ├── data_cleaner.py
-│ ├── data_loader.py
-│ ├── eda_tool.py
-│ └── plot_tool.py
+│   ├── __init__.py
+│   ├── data_cleaner.py
+│   ├── data_loader.py
+│   ├── eda_tool.py
+│   └── plot_tool.py
 │
 ├── data/
-│ └── uploads/
-│ └── loan.csv
+│   └── uploads/
+│       └── loan.csv
 │
 ├── app.py
 ├── main.py
@@ -195,6 +194,7 @@ AI-powered analytics tool
 
 Learning FastAPI + LLM integration
 
+---
 👨‍💻 Author
 Shubham Raut
 Data Science & AI Engineer
