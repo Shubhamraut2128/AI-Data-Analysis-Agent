@@ -1,3 +1,7 @@
+
+🤖 AI Data Analysis Agent
+
+An industry-grade AI-powered Data Analysis Agent built using FastAPI, Pandas, and HuggingFace LLMs.
 This project allows users to upload CSV datasets and automatically generates:
 
 - 📊 Exploratory Data Analysis (EDA)
@@ -86,6 +90,34 @@ AI_DATA_ANALYSIS_AGENT/
 5. FastAPI returns a **clean, readable analysis**
 
 ---
+### Folder Structure
+
+AI_DATA_ANALYSIS_AGENT/
+│
+├── agents/
+│   ├── __init__.py
+│   ├── analysis_agent.py
+│   ├── hf_llm.py
+│   ├── insight_agent.py
+│   ├── intent_agent.py
+│   └── planner_agent.py
+│
+├── tools/
+│   ├── __init__.py
+│   ├── data_cleaner.py
+│   ├── data_loader.py
+│   ├── eda_tool.py
+│   └── plot_tool.py
+│
+├── data/
+│   └── uploads/
+│       └── loan.csv
+│
+├── app.py
+├── main.py
+├── requirements.txt
+└── README.md
+
 
 ## 🧪 Sample Dataset (Heart Disease)
 
