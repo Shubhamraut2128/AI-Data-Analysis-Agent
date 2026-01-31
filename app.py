@@ -19,7 +19,7 @@ st.set_page_config(
 st.sidebar.title("Upload CSV & Navigation")
 uploaded_file = st.sidebar.file_uploader("Upload CSV file", type=["csv"])
 
-st.title("🤖 Full Step-by-Step AI EDA Tool")
+st.title("🤖 AI Data Analysis Agent")
 st.subheader("Explore your data with multiple steps and visualizations")
 
 if uploaded_file:
