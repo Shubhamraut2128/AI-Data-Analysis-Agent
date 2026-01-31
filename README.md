@@ -137,7 +137,7 @@ cp: 0
 ## 🛠 Installation & Setup
 
 ### 1️⃣ Clone the Repository
-```bash
+``bash
 git clone https://github.com/<your-username>/AI-Data-Analysis-Agent.git
 cd AI-Data-Analysis-Agent
 2️⃣ Create Virtual Environment
@@ -185,6 +185,7 @@ plot_tool	Visualizations (optional)
 
 🌐 React frontend
 
+---
 🎯 Use Cases
 Data analysis automation
 
