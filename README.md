@@ -1,5 +1,7 @@
 # 🤖 AI Data Analysis Agent
 
+ai-data-analysis-agent-orecfqss2zfnih82gjprup.streamlit.app
+
 An industry-grade AI-powered Data Analysis Agent built using **FastAPI**, **Pandas**, and **HuggingFace LLMs**.
 
 This system allows users to upload CSV files and automatically generates:
