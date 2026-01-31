@@ -1,6 +1,6 @@
 # 🤖 AI Data Analysis Agent
 
-ai-data-analysis-agent-orecfqss2zfnih82gjprup.streamlit.app
+[ai-data-analysis-agent-orecfqss2zfnih82gjprup.streamlit.app](https://ai-data-analysis-agent-orecfqss2zfnih82gjprup.streamlit.app/)
 
 An industry-grade AI-powered Data Analysis Agent built using **FastAPI**, **Pandas**, and **HuggingFace LLMs**.
 
