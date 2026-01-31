@@ -2,7 +2,7 @@
 
 An industry-grade AI-powered Data Analysis Agent built using FastAPI, Pandas, and HuggingFace LLMs.
 This project allows users to upload CSV datasets and automatically generates:
-
+---
 📊 Exploratory Data Analysis (EDA)
 
 ❗ Missing value analysis
