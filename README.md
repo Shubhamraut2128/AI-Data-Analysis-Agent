@@ -2,7 +2,9 @@
 
 An industry-grade AI-powered Data Analysis Agent built using FastAPI, Pandas, and HuggingFace LLMs.
 This project allows users to upload CSV datasets and automatically generates:
----
+
+--- 
+
 📊 Exploratory Data Analysis (EDA)
 
 ❗ Missing value analysis
@@ -11,6 +13,7 @@ This project allows users to upload CSV datasets and automatically generates:
 
 🚀 Clean, readable (non-JSON) analytical output
 
+---
 🔍 Project Overview
 
 The AI Data Analysis Agent acts like a junior data analyst that:
@@ -33,6 +36,8 @@ Interview demos
 
 Real-world analytics automation
 
+---
+
 🧱 Tech Stack
 Layer	Technology
 Backend API	FastAPI
@@ -41,6 +46,8 @@ Data Processing	Pandas
 AI Model	HuggingFace LLM
 API Server	Uvicorn
 File Upload	CSV
+
+---
 📂 Project Folder Structure
 AI_DATA_ANALYSIS_AGENT/
 │
@@ -68,6 +75,8 @@ AI_DATA_ANALYSIS_AGENT/
 ├── requirements.txt
 └── README.md
 
+---
+
 ⚙️ Features
 
 📤 Upload CSV file
@@ -80,6 +89,7 @@ AI_DATA_ANALYSIS_AGENT/
 
 🏗 Modular agent-based architecture
 
+---
 🚀 How It Works
 
 User uploads a CSV file
@@ -92,6 +102,7 @@ insight_agent calls LLM to generate insights
 
 FastAPI returns a clean, readable analysis
 
+---
 🧪 Sample Dataset (Heart Disease)
 
 Example columns:
@@ -99,6 +110,7 @@ Example columns:
 age, sex, cp, trestbps, chol, fbs, restecg,
 thalach, exang, oldpeak, slope, ca, thal, target
 
+---
 🧠 Example Output
 📊 Dataset Summary
 Rows: 303
@@ -126,6 +138,7 @@ Columns: 14
 - cp: 0
 ...
 
+---
 🧠 AI Insights:
 - Higher age correlates with increased heart disease risk
 - Exercise-induced angina shows strong impact
@@ -147,6 +160,7 @@ pip install -r requirements.txt
 uvicorn main:app --reload
 
 
+---
 Open browser:
 
 http://127.0.0.1:8000/docs
@@ -169,6 +183,8 @@ Missing values
 
 AI-generated insights (text format)
 
+
+---
 🧠 Agent Responsibilities
 Agent	Purpose
 intent_agent	Understands user intent
@@ -199,12 +215,14 @@ AI-powered analytics tool
 
 Learning FastAPI + LLM integration
 
+---
+
 👨‍💻 Author
 
 Shubham Raut
 
 Data Science & AI Engineer
 
-Java | Python | ML | LLMs
+Python | ML | LLMs
 
 Passionate about building intelligent systems
